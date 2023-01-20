@@ -1,0 +1,36 @@
+<template>
+    <div class="footer">
+        +7-915-568-46-21
+      </div>
+</template>
+
+<script>
+export default {
+  name: "Footer"
+}
+</script>
+
+<style>
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15vw;
+    color: white;
+    background-color: lightslategray;
+}
+
+  .navItem {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 30px;
+
+    transition: color 0.15s linear;
+}
+
+  .navItem:hover {
+    color: #fc9b9b;
+}
+</style>
